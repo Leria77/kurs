@@ -80,6 +80,6 @@ printf("%3d",mass[i]);
 }
 printf("%s\n"," ");
 printf("Время сортировки: %.6f сек.\n", t);
-
+free(mass);
 return 0;
 }
